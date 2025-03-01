@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\Developent\\Dotnet\\Projects\\Role-Based-Authorization-\\Role Based Authorization\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5B203A75-0E47-409C-A3EF-762983128C9A}|Role Based Authorization.csproj|d:\\developent\\dotnet\\projects\\role-based-authorization-\\role based authorization\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B203A75-0E47-409C-A3EF-762983128C9A}|Role Based Authorization.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B203A75-0E47-409C-A3EF-762983128C9A}|Role Based Authorization.csproj|d:\\developent\\dotnet\\projects\\role-based-authorization-\\role based authorization\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B203A75-0E47-409C-A3EF-762983128C9A}|Role Based Authorization.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B203A75-0E47-409C-A3EF-762983128C9A}|Role Based Authorization.csproj|d:\\developent\\dotnet\\projects\\role-based-authorization-\\role based authorization\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -13,6 +13,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{5B203A75-0E47-409C-A3EF-762983128C9A}|Role Based Authorization.csproj|d:\\developent\\dotnet\\projects\\role-based-authorization-\\role based authorization\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B203A75-0E47-409C-A3EF-762983128C9A}|Role Based Authorization.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B203A75-0E47-409C-A3EF-762983128C9A}|Role Based Authorization.csproj|d:\\developent\\dotnet\\projects\\role-based-authorization-\\role based authorization\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B203A75-0E47-409C-A3EF-762983128C9A}|Role Based Authorization.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 327,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,6 +62,19 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\Developent\\Dotnet\\Projects\\Role-Based-Authorization-\\Role Based Authorization\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "D:\\Developent\\Dotnet\\Projects\\Role-Based-Authorization-\\Role Based Authorization\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAowFEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T14:47:35.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Developent\\Dotnet\\Projects\\Role-Based-Authorization-\\Role Based Authorization\\appsettings.json",
@@ -71,13 +88,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Developent\\Dotnet\\Projects\\Role-Based-Authorization-\\Role Based Authorization\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Developent\\Dotnet\\Projects\\Role-Based-Authorization-\\Role Based Authorization\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAAACwAAABxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-28T20:35:49.444Z",
               "EditorCaption": ""

@@ -81,5 +81,22 @@ namespace Role_Based_Authorization.Controllers
             }
             return BadRequest("Role already Exists");
         }
+
+        [HttpPost("assign-role")]
+        public async Task<IActionResult> AssignRole([FromBody] UserRole model)
+        {
+            var user = await _userManager.FindByNameAsync(model.Username);
+            if(user == null)
+            {
+                return BadRequest("User is not found");
+            }
+
+            var result = await _userManager.AddToRoleAsync(user, model.Role);
+            if(result.Succeeded)
+            {
+                return Ok(new { message = "Role assigned successfully" });
+            }
+            return BadRequest(result.Errors);
+        }
     }
 }
